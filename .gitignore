@@ -127,3 +127,11 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Dockerizing
+gunicorn.sh
+Dockerfile
+.dockerignore
+
+# unused files
+twitoff/ml.py
