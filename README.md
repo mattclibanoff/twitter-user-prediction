@@ -38,8 +38,6 @@ Finally, the model used to predict Twitter users is a simple *Logistic Regressio
 ├─ LICENSE
 ├─ Procfile
 ├─ README.md
-├─ TwitOff Application Architecture.pdf
-├─ TwitOff Database Entity Relationship Diagram.pdf
 ├─ requirements.txt
 └─ runtime.txt                → Specifies Python version for Heroku
 ```
