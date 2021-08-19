@@ -22,8 +22,8 @@ def predict_user(user1_name, user2_name, tweet_text):
     # X = embeddings
     # y = labels
     embeddings = np.vstack([user1_embeddings, user2_embeddings])
-    labels = np.concatenate([np.ones(len(user1.tweets)),
-                             np.zeros(len(user2.tweets))])
+    labels = np.concatenate([np.zeros(len(user1.tweets)),
+                             np.ones(len(user2.tweets))])
 
     # Fit a LogisticRegression model on X and y
     log_reg = LogisticRegression().fit(embeddings, labels)
